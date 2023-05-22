@@ -1,0 +1,11 @@
+events.out.tfevents.*
+.idea
+.git
+*.pt
+*.pth
+__pycache__
+*.gif
+run_data
+data/*
+wandb/*
+work_dirs/*
