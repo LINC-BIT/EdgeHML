@@ -41,12 +41,12 @@ EdgeHML（和其他一些持续学习方法）基于本项目中的半监督持�
 
 > 下文提供了在 NVIDIA Jetson AGX Orin 设备上进行环境搭建的步骤，如果需要在其他边缘平台或服务器平台进行搭建，则可以直接修改相应的依赖项安装方式。
 
-#### Requirements
+#### 环境依赖
 
 * Python 3.8+
 * CUDA 10.2+
 
-#### Installation
+#### 安装
 
 0. Clone this repository
     ```bash
@@ -86,7 +86,7 @@ python src/train_cls_uni.py src/sscl/configs/image_classification/edgehml_cifar1
 
 以下是本框架中已经支持的方法（除 EdgeHML 以外）、模型以及数据集。
 
-#### Methods
+#### 方法
 * 持续学习：
     * [PNN](https://arxiv.org/abs/1606.04671)
     * [SI](http://proceedings.mlr.press/v70/zenke17a)
@@ -103,7 +103,7 @@ python src/train_cls_uni.py src/sscl/configs/image_classification/edgehml_cifar1
     * [Least Confidence, Margin, Entropy](https://minds.wisconsin.edu/handle/1793/60660)
     * [QBC](https://dl.acm.org/doi/abs/10.5555/645527.657478)
 
-#### Models
+#### 模型
 * [ResNet](https://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html)
 * [MobileNetV2](https://arxiv.org/abs/1801.04381)
 * [ResNeXt](https://arxiv.org/abs/1611.05431)
@@ -113,7 +113,7 @@ python src/train_cls_uni.py src/sscl/configs/image_classification/edgehml_cifar1
 * [SENet](https://ieeexplore.ieee.org/document/341010)
 * [VGG](http://arxiv.org/abs/1409.1556)
 
-#### Datasets
+#### 数据集
 * [CIFAR-10, CIFAR-100](https://www.cs.toronto.edu/~kriz/cifar.html)
 * [TinyImageNet](http://cs231n.stanford.edu/reports/2015/pdfs/yle_project.pdf)
 * [COCO](https://cocodataset.org/#home)
